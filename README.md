@@ -6,7 +6,15 @@ React-Router & Redux-Form
 Helpful Links
 -------------
 >  
->
+> [Lodash](https://lodash.com/)
 
+----------
+
+Lodash
+-------------
+>  
+> **Lodash** is a modern Javascript utility library deliverying modularity, performance & extras.
+>  
+>
 
 ----------
