@@ -1,3 +1,4 @@
+
 React-Router & Redux-Form
 ===================
 > Following **StephenGrider**'s tutorial: *Modern React with Redux* on udemy, here's the [link](https://www.udemy.com/react-redux/).
@@ -26,6 +27,13 @@ React Router
 >  
 > **React Router** is a collection of *navigational components* that compose declaratively with your application.
 >  
+
+>
+>```<Switch>``` renders the first child ```<Route>``` or ```<Redirect>``` that matches the location.
+>
+>```<Switch>``` is unique in that it renders a route *exclusively. In contrast, every ```<Route>``` that matches the location renders *inclusively*.
+>
+>This is what happened when we were seeing both the ```PostsIndex``` and ```PostsNew``` components being rendered to the browser at the same time, even through we were at url ```http://localhost:8080/posts/new```
 >
 
 ----------
