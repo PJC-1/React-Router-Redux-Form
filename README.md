@@ -27,6 +27,7 @@ React Router
 >  
 > **React Router** is a collection of *navigational components* that compose declaratively with your application.
 >  
+> ----------
 
 >
 >```<Switch>``` renders the first child ```<Route>``` or ```<Redirect>``` that matches the location.
@@ -35,6 +36,20 @@ React Router
 >
 >This is what happened when we were seeing both the ```PostsIndex``` and ```PostsNew``` components being rendered to the browser at the same time, even through we were at url ```http://localhost:8080/posts/new```
 >
+>Follow this link to [react router's documentation](https://reacttraining.com/react-router/web/api/Switch) for more information and examples of ```<Switch>```
+>
+>----------
+> ```<Link>``` provides declarative, accessible navigation around your application.
+>  Here is an example of its use:
+```
+import { Link } from 'react-router-dom'
+
+<Link to="/about">About</Link>
+```
+>
+>  [Link](https://reacttraining.com/react-router/web/api/Link) to react router's documentation on ```<Link>```.
+>  
+>  ----------
 
 ----------
 
